@@ -2,9 +2,13 @@
   "name": "test-postcss-gulp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/88mpg/test-gulp-jade-postcss-browserify"
   },
   "paths": {},
   "author": "",
