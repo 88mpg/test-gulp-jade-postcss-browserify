@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: color(black alpha(80%));
+  font-family: Helvetica;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+
+  #main.container {
+    section {
+      margin: 20px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    ol {
+      font-size: 2em;
+    }
+    a {
+      color: aqua;
+      text-decoration: none;
+    }
+    section.footer {
+      height: 2000px;
+      background: tomato;
+    }
+  }
+}

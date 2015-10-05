@@ -1,0 +1,28 @@
+doctype html
+html
+  meta(charset="UTF-8")
+  title Document
+  link(rel="stylesheet", href="assets/css/main.css")
+body
+  #main.container
+  
+    section.hero
+      h1 More like Tony Blow-mo
+      ol
+        li Gulp
+        li Jade
+        li PostCSS
+        li Browsersync
+    
+    section.tests
+      - var test = "jade variable test";
+      p.vartest= test
+      a(href="#deepLinkTest").linktest browsersync link test
+      form(action="")
+        input(type="text",placeholder="browsersync form test")
+      
+    section.footer
+      p Browsersync scroll test
+    
+    section#deepLinkTest
+      a(href="#") back to top
